@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+.header {
+  background-color: rgb(104, 225, 234);
+  background-image: url(https://s1.1zoom.ru/big3/687/Milky_Way_Lake_Stars_Sky_458932.jpg);
+  background-size: cover;
+
+}
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.nav {
+  font-size: 24px;
+  height: 50px;
+  padding: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(104, 225, 234);
+}
+.block-image {
+  text-align: center;
+  
+}
+.image {
+  text-align: center;
+  border: 3px solid #ccc;
+}
+
+
+.text-center {
+  text-align: center;
+}
+.mx-5 {
+  margin: 0 200px;
+}
+.mx-1 {
+  margin: 20px 0;
+}
+.footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-just {
+  text-align: justify;
+}
+.mail {
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.mail:hover {
+  color: gray;
+  border: 2px dashed gray;
+}
+.btn {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+}
+.btn:hover {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
